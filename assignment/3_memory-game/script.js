@@ -91,16 +91,6 @@ function blowUp(elem){
   //setTimeout(killImgDead,1250);
 }
 
-function killImg(elem){
-  console.log("killImg");
-  $(elem).find('img').fadeOut('slow');
-}
-
-function killImgDead(elem){
-  console.log("killImgDead");
-  $(elem).find('img').remove();
-}
-
 function winGame(){
   $('h1').text('VICTORY');
   $('h1').css('color', 'white');
