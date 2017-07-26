@@ -2,7 +2,7 @@ console.log('Test Sourced');
 
 var $imgOne, $imgTwo;
 var imgCount = 0;
-var showAll = true;
+var showAll = false;
 var srcArr = ['imgs/banana.png', 'imgs/apple.png', 'imgs/pear.png', 'imgs/orange.png'];
 var totalCards = 8;
 
