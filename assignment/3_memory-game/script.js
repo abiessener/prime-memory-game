@@ -84,6 +84,21 @@ function compareImages(){
 function blowUp(elem){
   $(elem).data('found',true);
   $(elem).fadeTo('slow',0.2);
+  // setTimeout(killImg,750);
+  setTimeout(function() {
+    $(elem).find('img').remove();
+  }, 500)
+  //setTimeout(killImgDead,1250);
+}
+
+function killImg(elem){
+  console.log("killImg");
+  $(elem).find('img').fadeOut('slow');
+}
+
+function killImgDead(elem){
+  console.log("killImgDead");
+  $(elem).find('img').remove();
 }
 
 function winGame(){
