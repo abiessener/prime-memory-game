@@ -12,7 +12,6 @@ var onReady2 = function() {
   //TODO Add your code below to attach your event listeners to functions
   $('#revealHide').on('click', revealHide);
   $('.cardDiv').on('click', singleClickFunc);
-  revealHide();
   randomizeCards();
 
 };

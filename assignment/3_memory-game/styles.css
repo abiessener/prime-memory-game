@@ -12,6 +12,10 @@ body {
   float: left;
 }
 
+.cardImg {
+  display: none;
+}
+
 img {
   width: 150px;
   height: 150px;
