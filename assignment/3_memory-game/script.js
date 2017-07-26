@@ -93,7 +93,10 @@ function blowUp(elem){
 
 function winGame(){
   $('h1').text('VICTORY');
-  $('h1').css('color', 'white');
+  $('h1').css('text-align', 'center');
+  $('h1').css('font-size', '6em');
+
+  $('#revealHide').hide();
   $('h2').hide();
   $('li').hide();
   $('html').css('background-color', 'purple');
